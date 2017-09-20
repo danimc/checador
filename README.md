@@ -22,28 +22,28 @@ MySQL a partir del archivo dump (.sql) que se proporciona y conceder los permiso
 para la base de datos recién creada para este usuario.
 
 
-A2.- Tabla usuario : se encuentra vacía y se debe agregar manualmente el registro del usuario administrador del sistema. 
+A2.- Tabla usuario : tiene un sólo registro que corresponde al usuario administrador del sistema. 
 Los valores de las columnas son:
 
 	id_user → 1
 
-	nombre → administrador (o el login que se desee asignar)
+	nombre → admin (o el login que se desee asignar)
 
 	tipo →	 A (A = Administrador, C = Capturista, O = Operador)
 
-	usuario → administrador (o el nombre de usuario a asignar)
+	usuario → admin (o el nombre de usuario a asignar)
 
-	password → el equivalente a la cadena deseada en encriptación MD5
+	password → 975310
 
 	activo → S (S = Si, N = No)
 
-	fecha_creacion → 0000-00-00 00:00:00 (o poner la fecha y hora actuales si se desea 	apegándose al 
-  formato YYYY-MM-DD hh:mm:ss)
+	fecha_creacion → 0000-00-00 00:00:00 (o poner la fecha y hora actuales si se desea apegándose al 
+  	formato YYYY-MM-DD hh:mm:ss)
 
-	fecha_modificacion → 0000-00-00 00:00:00 (poner la fecha y hora actuales si se desea 	apegándose al 
-  formato YYYY-MM-DD hh:mm:ss)
+	fecha_modificacion → 0000-00-00 00:00:00 (poner la fecha y hora actuales si se desea apegándose al 
+  	formato YYYY-MM-DD hh:mm:ss)
 
-Los demás usuarios del sistema deberán ser agregados manualmente de la manera descrita, no dentro del sistema.
+Los demás usuarios del sistema deberán ser agregados manualmente en la base de datos; esto no se hace dentro del sistema.
 
 A3.- Tabla calendario: no debe ser modificada, esta tabla proporciona información acerca de las fechas válidas 
 en las que los empleados pueden registrar movimientos. Comprende del Viernes 1 de Enero de 2016 al Jueves 20 de Febrero 
