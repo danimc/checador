@@ -38,10 +38,10 @@ Los valores de las columnas son:
 	activo → S (S = Si, N = No)
 
 	fecha_creacion → 0000-00-00 00:00:00 (o poner la fecha y hora actuales si se desea apegándose al
-  formato YYYY-MM-DD hh:mm:ss)
+  	formato YYYY-MM-DD hh:mm:ss)
 
 	fecha_modificacion → 0000-00-00 00:00:00 (poner la fecha y hora actuales si se desea apegándose al
-  formato YYYY-MM-DD hh:mm:ss)
+  	formato YYYY-MM-DD hh:mm:ss)
 
 Los demás usuarios del sistema deberán ser agregados manualmente en la base de datos; esto no se hace dentro del sistema.
 
